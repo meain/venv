@@ -9,7 +9,7 @@ Dependencies:
 
 - [`fzf`](https://github.com/junegunn/fzf) - Fuzzy file finder
 - [`pyenv`](https://github.com/pyenv/pyenv) - Install any python version
-- [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/)* - Better virtualenv
+- [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/) - Better virtualenv
 
 ## Installation
 
