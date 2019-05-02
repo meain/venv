@@ -11,7 +11,6 @@ PYVERSION=$(pyenv versions | {
   tail -n +2
   echo '  Other ( Install from pyenv )'
 } | fzf --no-sort | sed 's/^ *//')
-echo "PYVERSION" "$PYVERSION"
 
 
 # install if not available
@@ -22,7 +21,6 @@ if [ "$PYVERSION" = 'Other ( Install from pyenv )' ]; then
   pyenv install "$PYVERSION"
 elif [ "$PYVERSION" = "Default ($DEFAULT_VENV_PYTHON_VERSION)" ]; then
   PYVERSION=$DEFAULT_VENV_PYTHON_VERSION
-  echo "PYVERSION" "$PYVERSION"
 fi
 PYNAME=$(readlink "$PYENV_ROOT/versions/$PYVERSION/bin/python")
 
