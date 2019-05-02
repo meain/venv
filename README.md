@@ -2,6 +2,8 @@
 
 Easier workflow for python virutalenvs.
 
+![screenshot](https://i.imgur.com/UETzhSG.png)
+
 
 Dependencies:
 
