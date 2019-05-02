@@ -36,4 +36,4 @@ So if you wanna use `3.7.1` do
 DEFAULT_VENV_PYTHON_VERSION="3.7.1"
 ```
 
-> Default is now set as `3.6.6`
+> If you do not set anything it uses `3.6.6`
