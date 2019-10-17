@@ -6,7 +6,7 @@ PYENV_ROOT=${PYENV_ROOT:-"$HOME/.pyenv"}
 # select from available versions
 PYVERSION=$(pyenv versions | {
   echo "  Default ($DEFAULT_VENV_PYTHON_VERSION)"
-  tail -n +2
+  tail -n +2 | grep -v "$DEFAULT_VENV_PYTHON_VERSION"
   echo '  Other ( Install from pyenv )'
 } | fzf --no-sort | sed 's/^ *//')
 
