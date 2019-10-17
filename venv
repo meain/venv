@@ -1,7 +1,5 @@
 #! /bin/bash
 
-source `which virtualenvwrapper.sh`
-
 DEFAULT_VENV_PYTHON_VERSION=${DEFAULT_VENV_PYTHON_VERSION:-"3.6.6"}
 PYENV_ROOT=${PYENV_ROOT:-"$HOME/.pyenv"}
 
