@@ -4,6 +4,10 @@ Easier workflow for python virutalenvs.
 
 ![screenshot](https://i.imgur.com/UETzhSG.png)
 
+> Better version available [here](https://github.com/meain/dotfiles/blob/8523ac959e440e7d17e69507710ae85c200eea09/zsh/.config/zsh/.python_functions#L3).  
+> This is because sourcing of venv cannot be put into a script but has to be in a shell function  
+> Also dropped dependency on `virtualenvwrapper`
+
 
 Dependencies:
 
